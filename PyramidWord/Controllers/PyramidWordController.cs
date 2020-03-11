@@ -11,7 +11,7 @@ namespace PyramidWord.Controllers
 {
     [ApiController]
     [Route("pyramid-word")]
-    // URL Path: /pyramid-word?<pyramid-word>
+    // URL Path: /pyramid-word?{pyramid-word}
     // The URL (template) identifies a pyramid word. If the text in the query doesn't match
     // a pyramid word then the resource doesn't exist.
     public class PyramidWordController : ControllerBase
